@@ -78,7 +78,7 @@ function App() {
   function detectObject() {
     var objectaws = {
       method: "get",
-      url: "https://atvy9guxth.execute-api.us-east-1.amazonaws.com/mulobjects",
+      url: "",
       headers: {
         "Cache-Control": "no-cache",
         Pragma: "no-cache",
@@ -107,7 +107,7 @@ function App() {
   function readText() {
     var imageRead = {
       method: "get",
-      url: "https://atvy9guxth.execute-api.us-east-1.amazonaws.com/image",
+      url: "",
       headers: {
         "Cache-Control": "no-cache",
         Pragma: "no-cache",
@@ -132,7 +132,7 @@ function App() {
   function startLabel() {
     var config = {
       method: "get",
-      url: "https://atvy9guxth.execute-api.us-east-1.amazonaws.com/label",
+      url: "",
       headers: {
         "Cache-Control": "no-cache",
         Pragma: "no-cache",
@@ -160,7 +160,7 @@ function App() {
   function logo() {
     var config = {
       method: "get",
-      url: "https://atvy9guxth.execute-api.us-east-1.amazonaws.com/logo",
+      url: "",
       headers: {
         "Cache-Control": "no-cache",
         Pragma: "no-cache",
@@ -185,7 +185,7 @@ function App() {
   function detlandmark() {
     var config = {
       method: "get",
-      url: "https://atvy9guxth.execute-api.us-east-1.amazonaws.com/landmark",
+      url: "",
       headers: {
         "Cache-Control": "no-cache",
         Pragma: "no-cache",
@@ -244,7 +244,7 @@ function App() {
     //console.log(data);
     var config = {
       method: "post",
-      url: "https://atvy9guxth.execute-api.us-east-1.amazonaws.com/upload",
+      url: "",
 
       headers: {
         "Content-Type": "application/json",
